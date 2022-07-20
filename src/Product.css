@@ -35,6 +35,15 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111; 
+    font-weight: 400;
+    cursor: pointer;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.button:hover{
+    background-color: #111;
+    color: white;
 }
 
 .product__rating {

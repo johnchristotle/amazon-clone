@@ -3,11 +3,11 @@ import './Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
-//import { useStateValue } from './StateProvider';
+import { useStateValue } from './StateProvider';
 
 
 export default function Header() {
-//   const [{ basket }] = useStateValue(); 
+   const [{ basket }] = useStateValue(); 
 
   return (
     <div className='header'>
@@ -64,7 +64,7 @@ export default function Header() {
             <div className='header__optionBasket'>
                 <ShoppingCartIcon />
                 <span className='header__optionLineTwo header__basketCount'>
-                    0
+                    {basket?.length}
                 </span>
             </div>
             </Link>
