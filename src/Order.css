@@ -1,0 +1,68 @@
+.order {
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    /* position: relative; */
+  }
+  
+  .order__id {
+    /* position: absolute; */
+    top: 40px;
+    right: 20px;
+    font-size: 22px;
+  }
+  
+  .order__date {
+    padding-bottom: 10px;
+  }
+  
+  .order__total {
+    font-weight: 500;
+    text-align: right;
+  }
+  
+  .order > h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive settings start here */
+  
+  /* Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199px) {
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+  }
+  
+  @media (max-width: 991px) {
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  }
+  
+  @media (max-width: 767px) {
+    .order {
+      text-align: center;
+      font-size: 18px;
+    }
+  
+    .order__id {
+      margin-bottom: 20px;
+      text-align: center;
+      font-size: 4px;
+    }
+  
+    .order__total {
+      text-align: center;
+      font-size: 22px;
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+  }
+  
+  @media (max-width: 479px) {
+  }
+  
+  /* Responsive settings end here */

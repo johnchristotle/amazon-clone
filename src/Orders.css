@@ -1,7 +1,37 @@
 .orders {
     padding: 20px 80px;
-}
-
-.orders > h1 {
+  }
+  
+  .orders > h1 {
     margin: 30px 0;
-}
+  }
+  
+  /* Responsive settings start here */
+  
+  /* Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199px) {
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+  }
+  
+  @media (max-width: 991px) {
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+  }
+  
+  @media (max-width: 767px) {
+    .orders > h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 767px) {
+  }
+  
+  @media (max-width: 479px) {
+  }
+  
+  /* Responsive settings end here */
