@@ -18,13 +18,13 @@ export default function Header() {
 
   return (
     <div className='header'>
-        <a href='/'>
+        <Link to='/'>
         <img 
         className='header__logo'
         src='https://pngimg.com/uploads/amazon/amazon_PNG11.png'
         alt='amazon logo'
         />
-        </a>
+        </Link>
 
         <div className='header__serach'>
             <input 
