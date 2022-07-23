@@ -27,13 +27,21 @@ export default function Signup() {
 
     return (
         <div className='signup'>
+
           <a href='/'>
           <img
-          className='login__logo'
+          className='signup__logo'
           src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' 
           alt='' 
           />
           </a>
+
+          <img
+                className='signup__logo2'
+                src='https://servedbyadbutler.com/getad.img/;libID=897977' 
+                alt='' 
+                />
+       
     
           <div className='signup__container'>
                     <h1>Create account</h1>
@@ -68,6 +76,8 @@ export default function Signup() {
     
                     
                 </div>
+
+                
     
         </div>
       )

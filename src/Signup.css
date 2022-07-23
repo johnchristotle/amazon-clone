@@ -6,11 +6,20 @@
     align-items: center;
 }
 
-.signupn__logo {
+.signup__logo {
     margin-top: 20px;
     margin-bottom: 20px;
     object-fit: contain;
     width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .signup__logo2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 500px;
     margin-right: auto;
     margin-left: auto;
   }
