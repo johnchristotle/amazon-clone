@@ -36,13 +36,6 @@ export default function Signup() {
           />
           </a>
 
-          <img
-                className='signup__logo2'
-                src='https://servedbyadbutler.com/getad.img/;libID=897977' 
-                alt='' 
-                />
-       
-    
           <div className='signup__container'>
                     <h1>Create account</h1>
     
