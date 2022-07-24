@@ -24,14 +24,14 @@ function Home() {
                 id='2'
                 title='The Product Discription goes here'
                 price={39.45}
-                image='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg'
+                image='https://m.media-amazon.com/images/I/61XR0cKpWEL._AC_UL320_.jpg'
                 rating={3}/>
 
                 <Product 
                 id='3'
                 title='The Product Discription goes here'
                 price={90.51}
-                image='https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Desktop_Dash_Kindle_1x._SY304_CB639752818_.jpg'
+                image='https://images-na.ssl-images-amazon.com/images/I/31PTviHMeUL._AC_US160_.jpg'
                 rating={4}/>
                    
             </div>
@@ -41,7 +41,7 @@ function Home() {
                 id='4'
                 title='The Product Discription goes here'
                 price={99.59}
-                image='https://m.media-amazon.com/images/I/81vSvqlpaCS._AC_SY200_.jpg'
+                image='https://m.media-amazon.com/images/I/91uOGK5bQ5L._AC_UL320_.jpg'
                 rating={5}/>
 
                 <Product 
