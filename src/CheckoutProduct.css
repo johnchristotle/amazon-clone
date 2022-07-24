@@ -35,6 +35,7 @@
 
 .checkoutProduct__rating {
     display: flex;
+    margin-top: 5px;
   }
 
 .checkoutProduct__title {
