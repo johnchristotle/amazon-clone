@@ -6,6 +6,10 @@
     padding: 10px;
 }
 
+.checkoutProduct {
+  box-shadow: 0px 0px 10px 0px rgb(212, 171, 69);
+}
+
 .checkoutProduct__info {
     padding-left: 20px
 }
@@ -16,6 +20,11 @@
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+}
+
+.checkoutProduct__info > button:hover{
+  background-color: #111;
+  color: white;
 }
 
 .checkoutProduct__image {
