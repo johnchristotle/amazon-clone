@@ -58,7 +58,7 @@ export default function Header() {
                     Returns
                 </span>
                 <span className='header__optionLineTwo'>
-                    and Orders
+                    & Orders
                 </span>
             </div> 
             </Link>      
