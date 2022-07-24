@@ -2,8 +2,8 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
-    flex-flow: column wrap;
     box-shadow: 0px 5px 5px 1px rgb(83, 77, 77);
+    padding: 10px;
 }
 
 .checkoutProduct__info {
@@ -29,8 +29,8 @@
   }
 
 .checkoutProduct__title {
-    font-size: 17px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 /* Large devices (desktops, less than 1200px) */
