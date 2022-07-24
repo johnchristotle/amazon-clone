@@ -25,10 +25,14 @@
     background-color: #cd9842;
 }
 
+.shopbasket{
+    color: #8ed1ea;
+}
+
 .header__serach {
     display: flex;
     flex: 1;
-    border-color: #cd9842;
+    border-color: #ead8bd;
     align-items: center;
 }
 
