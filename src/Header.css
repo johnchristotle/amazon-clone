@@ -3,10 +3,13 @@
     display: flex;
     align-items: center;
     background-color: #131921;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 100;
-
+    width: 100%;
+    overflow: auto;
+    align-self: flex-start;
 }
 
 .header__logo {
@@ -111,6 +114,7 @@
     flex-direction: column;
     height: max-content;
     padding: 10px;
+    position: sticky;
   }
   .header__containerOne {
     width: 100%;

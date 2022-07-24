@@ -35,7 +35,9 @@ export default function Header() {
             <SearchIcon 
             className='header__searchIcon'/>
         </div>
+    </div>
 
+    <div className="header__containerTwo">
         <div className='header__nav'>
             <Link to={!user && '/login'}>
             <div onClick={handleAuthentication} className='header__option'>

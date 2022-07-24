@@ -1,3 +1,9 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .home{
     display: flex;
     justify-content: center;
@@ -20,3 +26,41 @@ z-index: -1;
 margin-bottom: -150px;
 mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
+
+/* Responsive settings start here */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .home {
+    overflow: hidden;
+    padding-bottom: 20px;
+  }
+  .home__image {
+    margin-bottom: -50px;
+  }
+  .home__row {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+}
+
+@media (max-width: 479px) {
+}
+
+/* Responsive settings end here */
