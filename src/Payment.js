@@ -94,8 +94,8 @@ function Payment() {
 
           <div className="payment__address">
             <p>{user?.email}</p>
-            <p>123 test lane</p>
-            <p>Regina,SK</p>
+            <p>6 Chinwo Street, Rumuodara</p>
+            <p>Port Harcourt, Rivers, NG</p>
           </div>
         </div>
         <div className="payment__section">
