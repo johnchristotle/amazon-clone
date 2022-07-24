@@ -18,6 +18,7 @@ export default function Header() {
 
   return (
     <div className='header'>
+    <div className="header__containerOne">
         <Link to='/'>
         <img 
         className='header__logo'
@@ -78,8 +79,8 @@ export default function Header() {
                 </span>
             </div>
             </Link>
-
-        </div>
+          </div>
+    </div>
     </div>
   )
 }

@@ -3,20 +3,17 @@
     display: flex;
     align-items: center;
     background-color: #131921;
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 100;
-    width: 100%;
-    overflow: auto;
-    align-self: flex-start;
+
 }
 
 .header__logo {
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
-    margin-top: 18px;
+    margin-top: 12px;
 }
 
 .header__searchIcon {
@@ -34,6 +31,7 @@
     flex: 1;
     border-color: #ead8bd;
     align-items: center;
+    border-radius: 24px;
 }
 
 .header__searchInput {
@@ -78,6 +76,11 @@
    font-weight: 600;
 }
 
+.header__containerOne{
+    display: flex;
+    flex: 1;
+}
+
 .a-link{
     text-decoration: none;
     color: white;
@@ -88,17 +91,39 @@
     transition: 0.1s;
 }
 
-@media (max-width: 640px) {
-    .header__serach {
-        display: none;
-    }
+/* Responsive settings start here */
 
-    .header__nav {
-        display: none;
-    }
-
-    .header__logo {
-        width: 60px;
-    }
-    
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    height: max-content;
+    padding: 10px;
+  }
+  .header__containerOne {
+    width: 100%;
+  }
+  .header__containerTwo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+}
+
+@media (max-width: 479px) {
+}
+
+/* Responsive settings end here */
