@@ -1,0 +1,131 @@
+[debug] [2022-07-26T00:48:09.265Z] ----------------------------------------------------------------------
+[debug] [2022-07-26T00:48:09.268Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2022-07-26T00:48:09.269Z] CLI Version:   11.3.0
+[debug] [2022-07-26T00:48:09.269Z] Platform:      win32
+[debug] [2022-07-26T00:48:09.270Z] Node Version:  v18.2.0
+[debug] [2022-07-26T00:48:09.271Z] Time:          Tue Jul 26 2022 01:48:09 GMT+0100 (West Africa Standard Time)
+[debug] [2022-07-26T00:48:09.271Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-26T00:48:09.365Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-26T00:48:09.365Z] > authorizing via signed-in user (agholorchristotle@gmail.com)
+[debug] [2022-07-26T00:48:09.366Z] [iam] checking project christotle--clone for permissions ["firebase.projects.get"]
+[debug] [2022-07-26T00:48:09.370Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions [none]
+[debug] [2022-07-26T00:48:09.370Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-07-26T00:48:12.865Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions 200
+[debug] [2022-07-26T00:48:12.866Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions {"permissions":["firebase.projects.get"]}
+[warn] !  Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"18\". Using node@18 from host."}}
+[debug] [2022-07-26T00:48:13.935Z] defaultcredentials: writing to file C:\Users\User\AppData\Roaming\firebase\agholorchristotle_gmail_com_application_default_credentials.json
+[debug] [2022-07-26T00:48:13.939Z] DEBUG: Setting GAC to C:\Users\User\AppData\Roaming\firebase\agholorchristotle_gmail_com_application_default_credentials.json
+[debug] [2022-07-26T00:48:13.942Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/christotle--clone/adminSdkConfig [none]
+[debug] [2022-07-26T00:48:14.819Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/christotle--clone/adminSdkConfig 200
+[debug] [2022-07-26T00:48:14.819Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/christotle--clone/adminSdkConfig {"projectId":"christotle--clone","storageBucket":"christotle--clone.appspot.com","locationId":"us-central"}
+[debug] [2022-07-26T00:48:14.923Z] [functions] Watching "C:\Users\User\Downloads\Programing Folder\PROJECTS\a-backend-practice-folder\amozon-clone\functions" for Cloud Functions...
+[debug] [2022-07-26T00:48:14.940Z] Validating nodejs source
+[debug] [2022-07-26T00:48:19.453Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-07-26T00:48:19.454Z] Building nodejs source
+[debug] [2022-07-26T00:48:19.454Z] Analyzing nodejs backend spec
+[debug] [2022-07-26T00:48:19.456Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-07-26T00:48:19.806Z] Serving at port 9005
+
+[debug] [2022-07-26T00:48:20.244Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-07-26T00:48:20.260Z] shutdown requested via /__/quitquitquit
+
+[debug] [2022-07-26T00:48:20.270Z] [functions[us-central1-api]] http function initialized (http://localhost:5000/christotle--clone/us-central1/api).
+[info] i  functions: Loaded functions: api 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub, storage 
+[debug] [2022-07-26T01:37:25.520Z] ----------------------------------------------------------------------
+[debug] [2022-07-26T01:37:25.523Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2022-07-26T01:37:25.524Z] CLI Version:   11.3.0
+[debug] [2022-07-26T01:37:25.524Z] Platform:      win32
+[debug] [2022-07-26T01:37:25.524Z] Node Version:  v18.2.0
+[debug] [2022-07-26T01:37:25.525Z] Time:          Tue Jul 26 2022 02:37:25 GMT+0100 (West Africa Standard Time)
+[debug] [2022-07-26T01:37:25.526Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-26T01:37:25.628Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-26T01:37:25.629Z] > authorizing via signed-in user (agholorchristotle@gmail.com)
+[debug] [2022-07-26T01:37:25.629Z] [iam] checking project christotle--clone for permissions ["firebase.projects.get"]
+[debug] [2022-07-26T01:37:25.632Z] > refreshing access token with scopes: []
+[debug] [2022-07-26T01:37:25.634Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-07-26T01:37:25.635Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-26T01:37:26.587Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-07-26T01:37:26.587Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-26T01:37:26.702Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions [none]
+[debug] [2022-07-26T01:37:26.702Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-07-26T01:37:28.634Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions 200
+[debug] [2022-07-26T01:37:28.635Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/christotle--clone:testIamPermissions {"permissions":["firebase.projects.get"]}
+[warn] !  Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"18\". Using node@18 from host."}}
+[debug] [2022-07-26T01:37:29.719Z] defaultcredentials: writing to file C:\Users\User\AppData\Roaming\firebase\agholorchristotle_gmail_com_application_default_credentials.json
+[debug] [2022-07-26T01:37:29.723Z] DEBUG: Setting GAC to C:\Users\User\AppData\Roaming\firebase\agholorchristotle_gmail_com_application_default_credentials.json
+[debug] [2022-07-26T01:37:29.724Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/christotle--clone/adminSdkConfig [none]
+[debug] [2022-07-26T01:37:30.740Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/christotle--clone/adminSdkConfig 200
+[debug] [2022-07-26T01:37:30.740Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/christotle--clone/adminSdkConfig {"projectId":"christotle--clone","storageBucket":"christotle--clone.appspot.com","locationId":"us-central"}
+[debug] [2022-07-26T01:37:30.791Z] [functions] Watching "C:\Users\User\Downloads\Programing Folder\PROJECTS\a-backend-practice-folder\amozon-clone\functions" for Cloud Functions...
+[debug] [2022-07-26T01:37:30.801Z] Validating nodejs source
+[debug] [2022-07-26T01:37:36.086Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^9.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-07-26T01:37:36.086Z] Building nodejs source
+[debug] [2022-07-26T01:37:36.087Z] Analyzing nodejs backend spec
+[debug] [2022-07-26T01:37:36.088Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-07-26T01:37:36.412Z] Serving at port 9005
+
+[debug] [2022-07-26T01:37:36.891Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-07-26T01:37:36.911Z] shutdown requested via /__/quitquitquit
+
+[debug] [2022-07-26T01:37:36.925Z] [functions[us-central1-api]] http function initialized (http://localhost:5000/christotle--clone/us-central1/api).
+[info] i  functions: Loaded functions: api 
+[warn] !  functions: The following emulators are not running, calls to these services will affect production: firestore, database, pubsub, storage 
