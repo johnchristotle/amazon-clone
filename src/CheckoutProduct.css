@@ -2,12 +2,13 @@
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 0px rgb(83, 77, 77);
+    box-shadow: 0px 1px 1px 0px rgb(83, 77, 77);
+    border-radius: 10px;
     padding: 10px;
 }
 
 .checkoutProduct:hover {
-  box-shadow: 0px 0px 10px 0px rgb(212, 171, 69);
+  box-shadow: 0px 0px 5px 0px rgb(145, 140, 140);
 }
 
 .checkoutProduct__info {

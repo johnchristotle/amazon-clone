@@ -10,12 +10,12 @@
     width: 100%;
     max-height: 400px;
     min-width: 100px;
-    box-shadow: 0px 5px 10px 1px rgb(83, 77, 77);
-
+    box-shadow: 0px 1px 1px 0px rgb(83, 77, 77);
+    border-radius: 10px;
 }
 
 .product:hover{
-    box-shadow: 0px 0px 5px 0px rgb(83, 77, 77);
+    box-shadow: 0px 0px 5px 0px rgb(145, 140, 140);
 }
 
 .img {
@@ -28,10 +28,12 @@
 .product__info {
     height: 100px;
     margin-bottom: 15px;
+    font-weight: 500;
 }
 
 .product__price {
     margin-top: 5px;
+    color: black;
 }
 
 .button{
@@ -42,7 +44,9 @@
     color: #111; 
     font-weight: 400;
     cursor: pointer;
-    padding: 2px;
+    padding: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
     border-radius: 3px;
 }
 
